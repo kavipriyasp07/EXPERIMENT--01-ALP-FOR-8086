@@ -87,14 +87,14 @@ HLT
  ![Screenshot 2024-10-14 150203](https://github.com/user-attachments/assets/0ff4d0d6-face-4a24-a375-880d54fdcdf7)
 
 ## Subtraction   of 8 bit numbers  ALP 
-```MOV AL,12H
+MOV AL,12H
 MOV BL,10H
 SUB AL,BL
-HLT```
+HLT
 ## Output 
 ![Screenshot 2024-10-14 150326](https://github.com/user-attachments/assets/5c0cc33c-051f-4f94-985e-622109830e6a)
 
-## Multiplication alp
+### Multiplication alp
 MOV AL,12H
 MOV BL,10H
 MUL BL
@@ -110,8 +110,11 @@ HLT
 ![Screenshot 2024-10-14 150635](https://github.com/user-attachments/assets/4c97e575-f6c4-4640-9943-d63fd54389ad)
 ## AND of 8 bit ALP
 MOV AL,12H
+
 MOV BL,22H
+
 AND AL,BL
+
 HLT
 
 ## Output 
